@@ -7,3 +7,13 @@ gem 'coffee-rails', '~> 4.0.0'
 
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
+
+group :test do
+  gem 'factory_girl'
+  gem 'factory_girl_rails'
+  gem 'rspec-activemodel-mocks'
+  gem 'rspec-its'
+  gem 'rspec-rails'
+  gem 'shoulda'
+  gem 'database_cleaner'
+end
